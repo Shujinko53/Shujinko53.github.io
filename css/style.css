@@ -29,6 +29,11 @@ nav {
     font-size: 15px;
     font-weight: 300;
     text-decoration: none; }
+    .menu_link:hover {
+      color: #ffffff;
+      opacity: 0.6; }
+    .menu_link:active {
+      opacity: 0.3; }
   .menu_item {
     border-right: 2px dotted black;
     padding-right: 28px; }
@@ -67,6 +72,11 @@ nav {
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff; }
+    .subheader_phone:hover {
+      color: #ffffff;
+      opacity: 0.6; }
+    .subheader_phone:active {
+      opacity: 0.3; }
   .subheader_btn {
     margin-top: 19px;
     width: 172px;
@@ -628,6 +638,11 @@ footer {
     .menu_link {
       display: block;
       font-size: 18px; }
+      .menu_link:hover {
+        color: #ffffff;
+        opacity: 1; }
+      .menu_link:active {
+        opacity: 1; }
 
   .hamburger {
     position: absolute;
@@ -670,6 +685,11 @@ footer {
     text-align: center;
     text-transform: uppercase;
     color: #ffffff; }
+    .subheader_phone:hover {
+      color: #ffffff;
+      opacity: 1; }
+    .subheader_phone:active {
+      opacity: 1; }
   .subheader_btn {
     display: block;
     margin: 0 auto;
